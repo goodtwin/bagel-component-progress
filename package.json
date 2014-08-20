@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "bagel-functions" : "git://github.com/goodtwin/bagel-functions.git#v0.1.5",
-    "bagel-theme-prototype" : "https://github.com/goodtwin/bagel-theme-prototype/archive/4e58b3a181174afa835a3009d06e62f70eb8f239.tar.gz",
-    "bagel-styleguide": "https://github.com/goodtwin/bagel-styleguide/archive/9ace822855ccf238aeadd8d011dbcf077119ca93.tar.gz",
+    "bagel-theme-prototype" : "git://github.com/goodtwin/bagel-theme-prototype.git#v0.1.2",
+    "bagel-styleguide": "git://github.com/goodtwin/bagel-styleguide.git#v0.1.1"
   },
   "devDependencies": {
     "grunt-shared-config": "~0.3.7",
