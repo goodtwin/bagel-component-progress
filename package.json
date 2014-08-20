@@ -1,6 +1,6 @@
 {
   "name": "bagel-component-progress",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Bagel UI - Progress Component",
   "description": "Progress Component for Bagel UI",
   "homepage": "http://goodtwin.co",
@@ -14,9 +14,9 @@
     "url": "git://github.com/goodtwin/bagel-component-progress.git"
   },
   "devDependencies": {
-    "bagel-functions" : "https://github.com/goodtwin/bagel-functions/archive/3c4b85069978a83d567822e9c45faebadaf6a1ea.tar.gz",
-    "bagel-theme-prototype" : "https://github.com/goodtwin/bagel-theme-prototype/archive/4e58b3a181174afa835a3009d06e62f70eb8f239.tar.gz",
-    "bagel-styleguide": "https://github.com/goodtwin/bagel-styleguide/archive/9ace822855ccf238aeadd8d011dbcf077119ca93.tar.gz",
+    "bagel-functions" : "git://github.com/goodtwin/bagel-functions.git#v0.1.5",
+    "bagel-theme-prototype" : "git://github.com/goodtwin/bagel-theme-prototype.git#v0.1.1",
+    "bagel-styleguide": "git://github.com/goodtwin/bagel-styleguide.git#v0.1.1",
     "grunt-shared-config": "https://github.com/goodtwin/grunt-shared-config/archive/1f0a6e12b365ad9bda3e411f2a2cb74683df1d2e.tar.gz",
     "assemble": "~0.4.41",
     "grunt": "~0.4.4",
