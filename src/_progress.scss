@@ -1,18 +1,7 @@
-/*
- * # Semantic - Progress Bar
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2013 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-
 @mixin progress-src {
-  /*******************************
-           Progress Bar
-  *******************************/
+  /* Progress Bar
+  ========================================
+  ======================================== */
 
   .ui.progress {
     width: 100%;
@@ -24,14 +13,13 @@
   }
 
 
-  /*******************************
-              States
-  *******************************/
+  /* States
+  ======================================== */
 
 
-  /*--------------
-    Successful
-  ---------------*/
+  /**
+   * Successful
+   */
 
 
   .ui.successful.progress .bar,
@@ -44,18 +32,18 @@
     animation: none !important;
   }
 
-  /*--------------
-       Failed
-  ---------------*/
+  /**
+   * Failed
+   */
 
   .ui.failed.progress .bar,
   .ui.failed.progress .bar::after {
     animation: none !important;
   }
 
-  /*--------------
-       Active
-  ---------------*/
+  /**
+   * Active
+   */
 
   .ui.active.progress .bar {
     position: relative;
@@ -70,9 +58,9 @@
     bottom: 0px;
   }
 
-  /*--------------
-      Disabled
-  ---------------*/
+  /**
+   * Disabled
+   */
 
   .ui.disabled.progress .bar,
   .ui.disabled.progress .bar::after {
@@ -81,14 +69,13 @@
 
 
 
-  /*******************************
-             Variations
-  *******************************/
+  /* Variations
+  ======================================== */
 
 
-  /*--------------
-      Attached
-  ---------------*/
+  /**
+   * Attached
+   */
 
   /* bottom attached */
   .ui.progress.attached {
@@ -101,9 +88,9 @@
     overflow: hidden;
   }
 
-  /*--------------
-      Striped
-  ---------------*/
+  /**
+   * Striped
+   */
 
   .ui.progress.active.striped .bar:after {
     animation: none;

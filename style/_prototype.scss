@@ -1,7 +1,7 @@
 @mixin progress-prototype {
-	/*******************************
-			Progress Bar
-	*******************************/
+	/* Progress Bar
+	========================================
+	======================================== */
 
 	.ui.progress {
 		border: 1px solid palette(neutral, mid);
@@ -17,9 +17,9 @@
 			background-color 1s ease-out;
 	}
 
-	/*--------------
-	Successful
-	---------------*/
+	/**
+	 * Successful
+	 */
 
 	.ui.successful.progress .bar {
 		background-color: palette(info, success) !important;
@@ -29,17 +29,17 @@
 		background-color: palette(info, warning) !important;
 	}
 
-	/*--------------
-		Failed
-	---------------*/
+	/**
+	 * Failed
+	 */
 
 	.ui.failed.progress .bar {
 	background-color: palette(info, error, 50) !important;
 	}
 
-	/*--------------
-		Active
-	---------------*/
+	/**
+	 * Active
+	 */
 
 	.ui.active.progress .bar::after {
 		background: palette(neutral, light);
@@ -60,22 +60,21 @@
 		}
 	}
 
-	/*--------------
-		Disabled
-	---------------*/
+	/**
+	 * Disabled
+	 */
 
 	.ui.disabled.progress {
 		opacity: 0.35;
 	}
 
-	/*******************************
-			Variations
-	*******************************/
+	/* Variations
+	======================================== */
 
 
-	/*--------------
-		Attached
-	---------------*/
+	/**
+	 * Attached
+	 */
 
 	/* bottom attached */
 	.ui.progress.attached,
@@ -90,9 +89,9 @@
 		top: -2px;
 	}
 
-	/*--------------
-		Striped
-	---------------*/
+	/**
+	 * Striped
+	 */
 
 	.ui.progress.striped .bar {
 		background-size: 30px 30px;
@@ -116,9 +115,9 @@
 		}
 	}
 
-	/*--------------
-		Sizes
-	---------------*/
+	/**
+	 * Sizes
+	 */
 
 	.ui.small.progress .bar {
 		height: 14px;
